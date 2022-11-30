@@ -1,0 +1,58 @@
+.body-group-card {
+  display: flex;
+  justify-content: center;
+  padding: 0rem 6rem;
+}
+.body-group-card .body-person-card {
+  width: 21rem;
+  box-shadow: 0px 0px 8px 0px #c4c4c4;
+  border-radius: 25px;
+  position: relative;
+  padding-bottom: 1.5rem;
+}
+.body-group-card .body-person-card .button-group-card {
+  position: absolute;
+  bottom: -2rem;
+  left: 0%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.body-group-card .body-person-card .button-group-card button {
+  margin: 0rem 1.1rem;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0px 0px 4px 0px #c4c4c4;
+  cursor: pointer;
+}
+.body-group-card .body-person-card .image-person-card {
+  width: 100%;
+}
+.body-group-card .body-person-card .pleasures-person-card {
+  display: flex;
+  padding: 0rem 1.4rem;
+}
+.body-group-card .body-person-card .pleasures-person-card .info-group-card {
+  display: flex;
+  margin-right: 1rem;
+  background-color: #33b5a9;
+  border-radius: 25px;
+}
+.body-group-card .body-person-card .pleasures-person-card .info-group-card p {
+  margin: 0px;
+  font-size: 17px;
+  /* height: 2rem; */
+}
+
+.body-group-card .body-person-card .info-person-card {
+  padding: 0rem 1.4rem;
+}
+.body-group-card .body-person-card .info-person-card .typo-text {
+  text-align: start;
+  padding: 0px;
+}
+.body-group-card .body-person-card .info-person-card .name-person-card {
+  color: #d70926;
+}
